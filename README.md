@@ -5,19 +5,11 @@
   <a href="mailto:larissealves.dev@gmail.com">📫 Email</a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-blue?logo=react" />
-  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwindcss" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" />
-</p>
-
 ---
 
 ## 👋 About Me
 
-Hi! I’m Larisse — a front-end developer passionate about crafting playful and polished user experiences.  
+Hi! I’m Larisse — a developer.  
 This repository showcases a selection of my creative projects, focused on interaction, accessibility, and joy.
 
 ---
@@ -27,10 +19,6 @@ This repository showcases a selection of my creative projects, focused on intera
 ### 📝 Rich Text Editor  
 An online WYSIWYG editor with core formatting tools and a clean responsive layout.  
 🔗 [Live demo](https://richtexteditor-js-html.netlify.app/)
-
-<div align="center">
-  <img src="https://github.com/larissealves/RichTextEditor/blob/master/imagem/Editor.gif" />
-</div>
 
 ---
 
