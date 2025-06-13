@@ -30,18 +30,6 @@ A fun CAPTCHA-style meme generator. Upload images of your friends, idols, or you
 
 ---
 
-### ⏱️ Pomodoro Study App  
-A peaceful and distraction-free Pomodoro timer inspired by the aesthetic of *Wandee Goodday*.  
-🔗 [Live demo](https://companion-study-room-react.vercel.app/)
-
-<p>
-  <img src="https://github.com/larissealves/companion-study-room-react/blob/master/public/Screenshots/img-01.png" />
-  <img src="https://github.com/larissealves/companion-study-room-react/blob/master/public/Screenshots/img-02.png" />
-  <img src="https://github.com/larissealves/companion-study-room-react/blob/master/public/Screenshots/img-03.png" />
-</p>
-
----
-
 ### 🧸 Match the Mascots  
 A memory game where players match mascots to reveal secret messages. Inspired by characters from Thai BL series.  
 🔗 [Live demo](https://match-the-mascots-for-sale.vercel.app)
@@ -65,6 +53,16 @@ A full-stack app to manage dishes, ingredients, categories, and public filtering
 </p>
 
 ---
+
+### ⏱️ Pomodoro Study App  
+A peaceful and distraction-free Pomodoro timer inspired by the aesthetic of *Wandee Goodday*.  
+🔗 [Live demo](https://companion-study-room-react.vercel.app/)
+
+<p>
+  <img src="https://github.com/larissealves/companion-study-room-react/blob/master/public/Screenshots/img-01.png" />
+  <img src="https://github.com/larissealves/companion-study-room-react/blob/master/public/Screenshots/img-02.png" />
+  <img src="https://github.com/larissealves/companion-study-room-react/blob/master/public/Screenshots/img-03.png" />
+</p>
 
 <p align="center">
   💜 Created by <strong>@larissealves</strong> • Open to collaborations!
