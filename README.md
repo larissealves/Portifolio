@@ -26,7 +26,7 @@ An online WYSIWYG editor with core formatting tools and a clean responsive layou
 A fun CAPTCHA-style meme generator. Upload images of your friends, idols, or yourself — and create a personalized image-based challenge!  
 🔗 [Live demo](https://fan-gallery.vercel.app/)
 
-<img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Fan-Gallery-Screenshots.png" height="440" />
+<img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Fan-Gallery-Screenshots.png" />
 
 ---
 
@@ -47,9 +47,9 @@ A full-stack app to manage dishes, ingredients, categories, and public filtering
 🔗 [GitHub Repo](https://github.com/larissealves/menu)
 
 <p>
-  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Menu%20%E2%80%93%20img-01.png" height="440" />
-  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Menu%20%E2%80%93%20img-02.png" height="440" />
-  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Menu%20%E2%80%93%20img-03.png" height="440" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Menu%20%E2%80%93%20img-01.png"/>
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Menu%20%E2%80%93%20img-02.png" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Menu%20%E2%80%93%20img-03.png" />
 </p>
 
 ---
