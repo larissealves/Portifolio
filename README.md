@@ -26,7 +26,7 @@ An online WYSIWYG editor with core formatting tools and a clean responsive layou
 A fun CAPTCHA-style meme generator. Upload images of your friends, idols, or yourself — and create a personalized image-based challenge!  
 🔗 [Live demo](https://fan-gallery.vercel.app/)
 
-<img src="https://github.com/larissealves/Fan-Gallery/blob/main/src/images/exemplo.png" height="440" />
+<img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Fan-Gallery-Screenshots.png" height="440" />
 
 ---
 
@@ -35,9 +35,9 @@ A memory game where players match mascots to reveal secret messages. Inspired by
 🔗 [Live demo](https://match-the-mascots-for-sale.vercel.app)
 
 <p>
-  <img src="https://github.com/larissealves/match_the_mascots-for-sale/blob/main/public/Screenshots/img-01.png" />
-  <img src="https://github.com/larissealves/match_the_mascots-for-sale/blob/main/public/Screenshots/img-02.png" />
-  <img src="https://github.com/larissealves/match_the_mascots-for-sale/blob/main/public/Screenshots/img-03.png" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Match%20the%20Mascots-img-01.png" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Match%20the%20Mascots-img-02.png" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Match%20the%20Mascots-img-03.png" />
 </p>
 
 ---
@@ -47,9 +47,9 @@ A full-stack app to manage dishes, ingredients, categories, and public filtering
 🔗 [GitHub Repo](https://github.com/larissealves/menu)
 
 <p>
-  <img src="https://github.com/larissealves/menu/blob/master/public/app-images/img-01.png" height="440" />
-  <img src="https://github.com/larissealves/menu/blob/master/public/app-images/img-02.png" height="440" />
-  <img src="https://github.com/larissealves/menu/blob/master/public/app-images/img-03.png" height="440" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Menu%20%E2%80%93%20img-01.png" height="440" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Menu%20%E2%80%93%20img-02.png" height="440" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Menu%20%E2%80%93%20img-03.png" height="440" />
 </p>
 
 ---
@@ -59,9 +59,9 @@ A peaceful and distraction-free Pomodoro timer inspired by the aesthetic of *Wan
 🔗 [Live demo](https://companion-study-room-react.vercel.app/)
 
 <p>
-  <img src="https://github.com/larissealves/companion-study-room-react/blob/master/public/Screenshots/img-01.png" />
-  <img src="https://github.com/larissealves/companion-study-room-react/blob/master/public/Screenshots/img-02.png" />
-  <img src="https://github.com/larissealves/companion-study-room-react/blob/master/public/Screenshots/img-03.png" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Pomodoro-img-01.png" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Pomodoro-img-02.png" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Pomodoro-img-03.png" />
 </p>
 
 <p align="center">
