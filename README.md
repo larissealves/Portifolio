@@ -22,21 +22,6 @@ An online WYSIWYG editor with core formatting tools and a clean responsive layou
 
 ---
 
-## 🧩 Fan Gallery – Custom reCAPTCHA Generator  
-A fun CAPTCHA-style meme generator. Upload images of your friends, idols, or yourself — and create a personalized image-based challenge!  
-🔗 [Live demo](https://fan-gallery.vercel.app/) <br>
-
-Tech Stack
-- **React** – UI library
-- **Tailwind CSS** – Utility-first CSS framework
-- **html2canvas** – HTML export as image
-- **MUI Icons** – Material Design icons
-- **Vite** – Fast dev server and build tool
-
-<img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Fan-Gallery-Screenshots.png" />
-
----
-
 ## 🧸 Match the Mascots  
 A memory game where players match mascots to reveal secret messages. Inspired by characters from Thai BL series.  
 🔗 [Live demo](https://match-the-mascots-for-sale.vercel.app) <br>
@@ -53,6 +38,21 @@ Tech Stack
   <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Match%20the%20Mascots-img-02.png" />
   <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Match%20the%20Mascots-img-03.png" />
 </p>
+
+---
+
+## 🧩 Fan Gallery – Custom reCAPTCHA Generator  
+A fun CAPTCHA-style meme generator. Upload images of your friends, idols, or yourself — and create a personalized image-based challenge!  
+🔗 [Live demo](https://fan-gallery.vercel.app/) <br>
+
+Tech Stack
+- **React** – UI library
+- **Tailwind CSS** – Utility-first CSS framework
+- **html2canvas** – HTML export as image
+- **MUI Icons** – Material Design icons
+- **Vite** – Fast dev server and build tool
+
+<img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Fan-Gallery-Screenshots.png" />
 
 ---
 
@@ -86,7 +86,7 @@ File Upload
 ---
 
 ## ⏱️ Pomodoro Study App  
-A peaceful and distraction-free Pomodoro timer inspired by the aesthetic of *Wandee Goodday*.  
+A peaceful and distraction-free Pomodoro timer.  
 🔗 [Live demo](https://companion-study-room-react.vercel.app/) <br>
 
 Tech Stack
@@ -102,6 +102,28 @@ Tech Stack
   <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Pomodoro-img-03.png" />
 </p>
 
+---
+
+## 🌌 NASA Astronomy Picture of the Day (APOD)
+
+This is a simple, modern frontend project that fetches and displays the daily **Astronomy Picture of the Day (APOD)** from NASA's [public API](https://api.nasa.gov/). It supports dark/light themes, responsive layout, and a popup with project information.
+<br>
+🔗 [Live demo](https://your-vercel-url.vercel.app) <br>
+
+Tech Stack
+- Semantic HTML5
+- Modern CSS with variables
+- Vanilla JavaScript (ES6 modules)
+- [NASA APOD API](https://api.nasa.gov/)
+- Native `<dialog>` element
+- Responsive design without frameworks
+
+<p>
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/nasa%20-%20apodo/apodo-01.png" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/nasa%20-%20apodo/apodo-02.png" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/nasa%20-%20apodo/apodo-03.png" />
+</p>
+
 <p align="center">
-  💜 Created by <strong>@larissealves</strong> • Open to collaborations!
+  💜 Created by <strong>@larissealves</strong> • :D
 </p>
