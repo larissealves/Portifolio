@@ -22,6 +22,11 @@ An online WYSIWYG editor with core formatting tools and a clean responsive layou
 
 ---
 
+## 🦫 Capybara Animations  
+🔗 [Live demo](https://animation-sable-rho.vercel.app/)
+
+---
+
 ## 🧸 Match the Mascots  
 A memory game where players match mascots to reveal secret messages. Inspired by characters from Thai BL series.  
 🔗 [Live demo](https://match-the-mascots-for-sale.vercel.app) <br>
