@@ -109,7 +109,7 @@ Tech Stack
 
 This is a simple, modern frontend project that fetches and displays the daily **Astronomy Picture of the Day (APOD)** from NASA's [public API](https://api.nasa.gov/). It supports dark/light themes, responsive layout, and a popup with project information.
 <br>
-🔗 [Live demo](https://your-vercel-url.vercel.app) <br>
+🔗 [Live demo]([https://your-vercel-url.vercel.app](https://vercel.com/larissealves-projects/nasa-api/C9jKQ7tdNFdFnMwJdEbXrerVqqYm)) <br>
 
 Tech Stack
 - Semantic HTML5
