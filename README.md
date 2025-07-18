@@ -63,7 +63,7 @@ Tech Stack
 
 ## 🍽️ Menu – Restaurant Menu Management System  
 A full-stack app to manage dishes, ingredients, categories, and public filtering views. Ideal for restaurant owners and staff.  
-🔗 [GitHub Repo]([https://github.com/larissealves/menu](https://menu-flax-six.vercel.app/)) 
+🔗 [GitHub Repo]([https://github.com/larissealves/menu](https://menu-flax-six.vercel.app/)
 
 Tech Stack <br>
 Frontend
