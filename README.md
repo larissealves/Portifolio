@@ -66,17 +66,13 @@ A full-stack app to manage dishes, ingredients, categories, and public filtering
 🔗 [Live demo](https://menu-flax-six.vercel.app/)
 
 Tech Stack <br>
-Frontend
-- **React**
-- **Tailwind CSS**
-- **Framer Motion**
 
-Backend
-- **Node.js**
-- **Express**
-
-Database
-- **SQLite** (with **Prisma ORM**)
+| Layer      | Stack                                        |
+|------------|-----------------------------------------------|
+| Frontend   | React 19, Vite, TailwindCSS, React Router     |
+| Backend    | Express, Prisma ORM, Multer                   |
+| Database   | PostgreSQL (NeonDB)                           |
+| Hosting    | Render (Backend), Vercel (Frontend)           |
 
 File Upload
 - **Multer** (image uploads with binary storage)
