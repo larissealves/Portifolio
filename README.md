@@ -22,6 +22,33 @@ An online WYSIWYG editor with core formatting tools and a clean responsive layou
 
 ---
 
+## 🍽️ Menu – Restaurant Menu Management System  
+A full-stack app to manage dishes, ingredients, categories, and public filtering views. Ideal for restaurant owners and staff.  
+> 🚨 **Notice:** The application is hosted on the free plan of Render, which may cause longer loading times on the first visits. Please be patient!
+
+🔗 [Live demo](https://menu-flax-six.vercel.app/)
+
+Tech Stack <br>
+
+| Layer      | Stack                                        |
+|------------|-----------------------------------------------|
+| Frontend   | React 19, Vite, TailwindCSS, React Router     |
+| Backend    | Express, Prisma ORM, Multer                   |
+| Database   | PostgreSQL (NeonDB)                           |
+| Hosting    | Render (Backend), Vercel (Frontend)           |
+
+File Upload
+- **Multer** (image uploads with binary storage)
+
+
+<p>
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Menu%20%E2%80%93%20img-01.png"/>
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Menu%20%E2%80%93%20img-02.png" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Menu%20%E2%80%93%20img-03.png" />
+</p>
+
+---
+
 ## 🦫 Capybara Animations  
 🔗 [Live demo](https://animation-sable-rho.vercel.app/)
 
@@ -59,30 +86,6 @@ Tech Stack
 
 <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Fan-Gallery-Screenshots.png" />
 
----
-
-## 🍽️ Menu – Restaurant Menu Management System  
-A full-stack app to manage dishes, ingredients, categories, and public filtering views. Ideal for restaurant owners and staff.  
-🔗 [Live demo](https://menu-flax-six.vercel.app/)
-
-Tech Stack <br>
-
-| Layer      | Stack                                        |
-|------------|-----------------------------------------------|
-| Frontend   | React 19, Vite, TailwindCSS, React Router     |
-| Backend    | Express, Prisma ORM, Multer                   |
-| Database   | PostgreSQL (NeonDB)                           |
-| Hosting    | Render (Backend), Vercel (Frontend)           |
-
-File Upload
-- **Multer** (image uploads with binary storage)
-
-
-<p>
-  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Menu%20%E2%80%93%20img-01.png"/>
-  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Menu%20%E2%80%93%20img-02.png" />
-  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Menu%20%E2%80%93%20img-03.png" />
-</p>
 
 ---
 
