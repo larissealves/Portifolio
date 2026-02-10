@@ -19,7 +19,7 @@ This repository showcases a selection of my creative projects, focused on intera
 
 <p>
   <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Nameless-img-01.png"/>
-  <img src=https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Nameless-img-02.png" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Nameless-img-02.png" />
   <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Nameless-img-03.png" />
 </p>
 
@@ -53,8 +53,8 @@ File Upload
 
 
 <p>
-  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Nameless-img-01.png"/>
-  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Nameless-img-02.png"/>
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Menu%20%E2%80%93%20img-03.png"/>
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Menu%20%E2%80%93%20img-02.png"/>
   <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Menu%20%E2%80%93%20img-03.png" />
 </p>
 
