@@ -143,7 +143,7 @@ A productivity application centered around a Pomodoro timer and distraction-free
 
 🔗 **Live:** https://companion-study-room-react.vercel.app/   <br>
 🔗 **GitHub:**  https://github.com/larissealves/companion-study-room-react <br>
-🔗 **Documentation:** --
+🔗 **Documentation:** https://companion-study-room-react.vercel.app/creditos
 
 <p>
   <img src="https://github.com/larissealves/Portifolio/blob/main/readme screenshots/Pomodoro-img-01.png" />
@@ -166,7 +166,7 @@ An interactive web project focused on experimentation with frontend development,
 
 🔗 **Live:** https://portfolio-web-delta-rosy.vercel.app/   <br>
 🔗 **GitHub:** https://github.com/larissealves/portfolio-web <br>
-🔗 **Documentation:** https://companion-study-room-react.vercel.app/creditos
+🔗 **Documentation:** 
 
 <p>
   <img src="https://github.com/larissealves/Portifolio/blob/main/readme screenshots/Nameless-img-01.png"/>
