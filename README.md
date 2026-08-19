@@ -1,4 +1,4 @@
-<h1 align="center">🚀 Project Portfolio – @larissealves</h1>
+<h1 align="center">🚀 Software Projects – @larissealves</h1>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/larissealves" target="_blank">🔗 LinkedIn</a> •
@@ -7,137 +7,230 @@
 
 ---
 
-## 👋 About Me
+## 👋 About
 
-Hi! I’m Larisse — a developer.  
-This repository showcases a selection of my creative projects, focused on interaction, accessibility, and joy.
+Hi! I'm Larisse — a software developer interested in web development, backend engineering, databases, and learning how systems work under the hood.
 
----
-
-## 📝 ... Nameless ...
-🔗 [Live demo](https://portfolio-web-delta-rosy.vercel.app/)
-
-<p>
-  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Nameless-img-01.png"/>
-  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Nameless-img-02.png" />
-  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Nameless-img-03.png" />
-</p>
-
+This repository contains a selection of projects I've built independently, ranging from full-stack applications and REST APIs to frontend applications, browser-based tools, API integrations, and interactive experiments.
 
 ---
 
-## 📝 Rich Text Editor  
-An online WYSIWYG editor with core formatting tools and a clean responsive layout.  
-🔗 [Live demo](https://richtexteditor-js-html.netlify.app/)
+## 🍽️ Menu — Restaurant Menu Management System
 
----
+A full-stack restaurant menu management application for managing dishes, ingredients, categories, tags, and public menu views.
 
+### Tech Stack
 
-## 🍽️ Menu – Restaurant Menu Management System  
-A full-stack app to manage dishes, ingredients, categories, and public filtering views. Ideal for restaurant owners and staff.  
-> 🚨 **Notice:** The application is hosted on the free plan of Render, which may cause longer loading times on the first visits. Please be patient!
+| Layer | Technologies |
+|---|---|
+| Frontend | React 19, Vite, Tailwind CSS, React Router |
+| Backend | Node.js, Express.js, Prisma, Multer |
+| Database | PostgreSQL (NeonDB) |
+| Hosting | Vercel, Render |
 
-🔗 [Live demo](https://menu-flax-six.vercel.app/)
+### Technical Highlights
 
-Tech Stack <br>
+- Built a full-stack application with separate React frontend and Express.js backend;
+- Designed a relational PostgreSQL database and managed schema changes using Prisma migrations;
+- Implemented REST APIs and CRUD operations for menu entities;
+- Implemented frontend routing, reusable components, filtering, and administrative workflows;
+- Implemented image upload handling using Multer;
+- Integrated frontend and backend through REST APIs;
+- Deployed frontend and backend as separate services;
+- Documented application architecture, database structure, API endpoints, development setup, and deployment workflow.
 
-| Layer      | Stack                                        |
-|------------|-----------------------------------------------|
-| Frontend   | React 19, Vite, TailwindCSS, React Router     |
-| Backend    | Express, Prisma ORM, Multer                   |
-| Database   | PostgreSQL (NeonDB)                           |
-| Hosting    | Render (Backend), Vercel (Frontend)           |
+> 🚨 **Notice:** The backend is hosted on Render's free tier, so the first request may take longer while the service wakes up.
 
-File Upload
-- **Multer** (image uploads with binary storage)
-
+🔗 **Live:** https://menu-flax-six.vercel.app/   <br>
+🔗 **GitHub:** https://github.com/larissealves/menu <br>
+🔗 **Documentation:** https://menu-flax-six.vercel.app/ProjectDocumentation
 
 <p>
   <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Menu%20%E2%80%93%20img-01.png"/>
   <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Menu%20%E2%80%93%20img-02.png"/>
-  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Menu%20%E2%80%93%20img-03.png" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Menu%20%E2%80%93%20img-03.png"/>
 </p>
 
 ---
 
-## 🦫 Capybara Animations  
-🔗 [Live demo](https://animation-sable-rho.vercel.app/)
+## 🧸 Match the Mascots — Interactive Web Application
 
----
+An interactive memory game where players match mascots to reveal secret messages.
 
-## 🧸 Match the Mascots  
-A memory game where players match mascots to reveal secret messages. Inspired by characters from Thai BL series.  
-🔗 [Live demo](https://match-the-mascots-for-sale.vercel.app) <br>
+### Tech Stack
 
-Tech Stack
-- **React** – front-end framework
-- **Vite** – blazing-fast build tool
-- **React Router** – navigation and URL handling
-- **CSS3** – handcrafted styling with a soft, pastel aesthetic
-- **Base64** – encoding message data into the URL
-
-<p>
-  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Match%20the%20Mascots-img-01.png" />
-  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Match%20the%20Mascots-img-02.png" />
-  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Match%20the%20Mascots-img-03.png" />
-</p>
-
----
-
-## 🧩 Fan Gallery – Custom reCAPTCHA Generator  
-A fun CAPTCHA-style meme generator. Upload images of your friends, idols, or yourself — and create a personalized image-based challenge!  
-🔗 [Live demo](https://fan-gallery.vercel.app/) <br>
-
-Tech Stack
-- **React** – UI library
-- **Tailwind CSS** – Utility-first CSS framework
-- **html2canvas** – HTML export as image
-- **MUI Icons** – Material Design icons
-- **Vite** – Fast dev server and build tool
-
-<img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Fan-Gallery-Screenshots.png" />
-
- ---
-
-## ⏱️ Pomodoro Study App  
-A peaceful and distraction-free Pomodoro timer.  
-🔗 [Live demo](https://companion-study-room-react.vercel.app/) <br>
-
-Tech Stack
-- React + Vite
+- React
+- Vite
 - React Router
-- CSS3 (custom styling with neon aesthetics)
-- Puppeteer (for external scraping logic)
-- Node.js + Express (back-end base)
+- CSS3
+- Base64 encoding
+
+### Technical Highlights
+
+- Implemented randomized card matching logic;
+- Managed game state and game progression using React;
+- Implemented client-side routing and shareable URLs;
+- Encoded message data into generated URLs using Base64;
+- Built the application without a backend by keeping the game and message logic client-side;
+- Implemented responsive UI and reusable React components;
+- Deployed the application to Vercel.
+
+🔗 **Live:** https://match-the-mascots-for-sale.vercel.app/   <br>
+🔗 **GitHub:** https://github.com/larissealves/match_the_mascots <br>
+🔗 **Documentation:** https://match-the-mascots-for-sale.vercel.app/ProjectDocs
 
 <p>
-  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Pomodoro-img-01.png" />
-  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Pomodoro-img-02.png" />
-  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/Pomodoro-img-03.png" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme screenshots/Match the Mascots-img-01.png" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme screenshots/Match the Mascots-img-02.png" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme screenshots/Match the Mascots-img-03.png" />
 </p>
 
 ---
 
-## 🌌 NASA Astronomy Picture of the Day (APOD)
+## 🧩 Fan Gallery — Custom CAPTCHA Generator
 
-This is a simple, modern frontend project that fetches and displays the daily **Astronomy Picture of the Day (APOD)** from NASA's [public API](https://api.nasa.gov/). It supports dark/light themes, responsive layout, and a popup with project information.
-<br>
-🔗 [Live demo](https://nasa-api-topaz.vercel.app/) <br>
+A browser-based image generator that creates personalized CAPTCHA-style challenges from uploaded images.
 
-Tech Stack
-- Semantic HTML5
-- Modern CSS with variables
-- Vanilla JavaScript (ES6 modules)
-- [NASA APOD API](https://api.nasa.gov/)
-- Native `<dialog>` element
-- Responsive design without frameworks
+### Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- html2canvas
+- MUI Icons
+
+### Technical Highlights
+
+- Implemented image upload and client-side image processing;
+- Built a dynamic CAPTCHA-style challenge generator;
+- Used `html2canvas` to export generated HTML content as an image;
+- Built reusable React UI components;
+- Implemented responsive layouts using Tailwind CSS;
+- Designed the application to perform image generation directly in the browser;
+- Deployed the application to Vercel.
+
+🔗 **Live:** https://fan-gallery.vercel.app/   <br>
+🔗 **GitHub:** https://github.com/larissealves/Fan-Gallery <br>
+🔗 **Documentation:** --
+
+<img src="https://github.com/larissealves/Portifolio/blob/main/readme screenshots/Fan-Gallery-Screenshots.png" />
+
+---
+
+## ⏱️ Pomodoro Study App
+
+A productivity application centered around a Pomodoro timer and distraction-free study experience.
+
+### Tech Stack
+
+- React
+- Vite
+- React Router
+- CSS3
+- Node.js
+- Express.js
+- Puppeteer
+
+### Technical Highlights
+
+- Built the frontend using React and Vite;
+- Implemented client-side routing;
+- Implemented Pomodoro timer logic and application state;
+- Built a Node.js/Express backend foundation;
+- Used Puppeteer for external scraping functionality;
+- Designed a responsive interface with custom CSS;
+- Deployed the frontend to Vercel.
+
+🔗 **Live:** https://companion-study-room-react.vercel.app/   <br>
+🔗 **GitHub:**  https://github.com/larissealves/companion-study-room-react <br>
+🔗 **Documentation:** --
 
 <p>
-  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/nasa%20-%20apodo/apodo-01.png" />
-  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/nasa%20-%20apodo/apodo-02.png" />
-  <img src="https://github.com/larissealves/Portifolio/blob/main/readme%20screenshots/nasa%20-%20apodo/apodo-03.png" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme screenshots/Pomodoro-img-01.png" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme screenshots/Pomodoro-img-02.png" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme screenshots/Pomodoro-img-03.png" />
 </p>
+
+---
+
+## 📝 Nameless — Personal Web Project
+
+An interactive web project focused on experimentation with frontend development, interface design, and user interaction.
+
+### Technical Highlights
+
+- Built a responsive interactive web application;
+- Implemented client-side interactions and application logic;
+- Focused on accessibility, responsive behavior, and user experience;
+- Deployed the application to Vercel.
+
+🔗 **Live:** https://portfolio-web-delta-rosy.vercel.app/   <br>
+🔗 **GitHub:** https://github.com/larissealves/portfolio-web <br>
+🔗 **Documentation:** https://companion-study-room-react.vercel.app/creditos
+
+<p>
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme screenshots/Nameless-img-01.png"/>
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme screenshots/Nameless-img-02.png" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme screenshots/Nameless-img-03.png" />
+</p>
+
+---
+
+## 🌌 NASA Astronomy Picture of the Day
+
+A lightweight frontend application that consumes NASA's Astronomy Picture of the Day API and displays the daily image and related information.
+
+### Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript (ES6 modules)
+- NASA APOD API
+- Native `<dialog>` element
+
+### Technical Highlights
+
+- Integrated the NASA public APOD API using native JavaScript;
+- Implemented asynchronous data fetching and response handling;
+- Built the application without frontend frameworks;
+- Implemented dark/light theme switching using CSS variables;
+- Used semantic HTML5 elements;
+- Implemented a responsive layout without CSS frameworks;
+- Used the native `<dialog>` element for project information;
+- Deployed the application to Vercel.
+
+🔗 **Live:** https://nasa-api-topaz.vercel.app/   <br>
+🔗 **GitHub:** https://github.com/larissealves/nasa_api <br>
+🔗 **Documentation:** --
+
+<p>
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme screenshots/nasa - apodo/apodo-01.png" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme screenshots/nasa - apodo/apodo-02.png" />
+  <img src="https://github.com/larissealves/Portifolio/blob/main/readme screenshots/nasa - apodo/apodo-03.png" />
+</p>
+
+---
+
+## 📝 Rich Text Editor
+
+A browser-based WYSIWYG rich text editor implementing common text formatting and editing functionality.
+
+🔗 **Live:** https://richtexteditor-js-html.netlify.app/   <br>
+🔗 **GitHub:** -- <br>
+🔗 **Documentation:** -- 
+
+---
+
+## 🦫 Capybara Animations
+
+A frontend animation experiment focused on browser-based visual interactions and CSS/JavaScript animation techniques.
+
+🔗 **Live:** https://animation-sable-rho.vercel.app/   <br>
+🔗 **GitHub:** --  <br>
+🔗 **Documentation:** --
+
+---
 
 <p align="center">
-  💜 Created by <strong>@larissealves</strong> • :D
+  💜 Created by <strong>@larissealves</strong>
 </p>
