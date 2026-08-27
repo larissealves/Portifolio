@@ -61,13 +61,15 @@ Deployment: Vercel + Render + NeonDb
 A memory game with a little twist: players match mascots to unlock a secret message.
 
 A message can be written, turned into a shareable URL, and sent to someone else — who has to play the game to reveal it.
-````
-**Stack:** React · Vite · React Router · CSS
 
-**Highlights:** game logic · state management · client-side routing · shareable URLs · Base64 encoding
-
-**Deployment:** Vercel
 ````
+Stack: React · Vite · React Router · CSS
+
+Highlights: game logic · state management · client-side routing · shareable URLs · Base64 encoding
+
+Deployment: Vercel
+````
+
 ❣︎ [Live](https://match-the-mascots-for-sale.vercel.app/) ·
 ❣︎ [GitHub](https://github.com/larissealves/match_the_mascots) ·
 ❣︎ [Documentation](https://match-the-mascots-for-sale.vercel.app/ProjectDocs)
