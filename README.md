@@ -42,6 +42,7 @@ Deployment: Vercel + Render + NeonDb
 ❣︎ [Live](https://menu-flax-six.vercel.app/) ·
 ❣︎ [GitHub](https://github.com/larissealves/menu) ·
 ❣︎ [Documentation](https://menu-flax-six.vercel.app/ProjectDocumentation)
+❣︎ [Documentation updates](https://github.com/larissealves/menu/tree/master/zz_personal%20notes/documentation%20updates)
 
 > 🚨 The backend runs on Render's free tier, so the first request may take a little longer while the service wakes up.
 
