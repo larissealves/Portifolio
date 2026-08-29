@@ -23,6 +23,8 @@ Some projects include **documentation covering their structure, database schema,
 
 Feel free to explore the other repositories not included here.
 
+⭐[All lists](https://github.com/larissealves?tab=stars)
+
 ---
 
 ## 🍽️ Menu
