@@ -16,7 +16,9 @@ Some projects include <b>documentation covering their structure, database schema
 
 ## ✧ Projects
 
-
+<p>
+❥︎ COGGLE: <img src="https://github.com/larissealves/Portifolio/blob/main/readme screenshots/01-coggle.png" />
+</p>
 
 ### 🍽️ Restaurant Menu Management System
 
