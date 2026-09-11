@@ -1,0 +1,199 @@
+# Perfil Profissional
+
+Desenvolvedora full-stack trabalhando com React, Node.js e bancos relacionais desde 2021. Boa parte da minha experiência é construir e manter aplicações web de missão crítica para o negócio — do tipo que substitui processos manuais, planilhas ou sistemas fragmentados por algo estruturado, confiável e mais fácil de operar.
+
+Normalmente sou a pessoa que fica responsável por uma feature de ponta a ponta: entender o requisito de negócio, modelar os dados, construir a API, integrar o frontend e validar que tudo se comporta corretamente antes de ir pra produção.
+
+## Stack
+
+| Área | Tecnologias |
+|---|---|
+| Linguagens | JavaScript (ES6+), TypeScript, Python, SQL |
+| Frontend | React, Redux, React Query, HTML5, CSS3, Tailwind CSS |
+| Backend | Node.js, Express.js, design de APIs REST |
+| Dados | PostgreSQL, SQL Server, modelagem relacional, ORM e SQL puro |
+| Ferramentas | Git, Docker, CI/CD, Jest |
+
+## Arquitetura
+
+### Visão geral
+
+```
+┌─────────────────────────────┐
+│        React Frontend       │
+│   UI / Componentes / Estado │
+└──────────────┬──────────────┘
+               │ HTTP / REST
+               ▼
+┌─────────────────────────────┐
+│       Backend Node.js       │
+│  APIs / Regras de Negócio   │
+│  Processamento de Dados     │
+└──────────────┬──────────────┘
+               │ Query / ORM
+               ▼
+┌─────────────────────────────┐
+│   Banco de Dados Relacional │
+│   PostgreSQL / SQL Server   │
+└──────────────┬──────────────┘
+               │
+               ▼
+┌─────────────────────────────┐
+│   Sistemas Externos /       │
+│   Corporativos               │
+└─────────────────────────────┘
+```
+
+### Camadas e responsabilidades
+
+**Frontend (React)**
+- UI montada a partir de componentes reutilizáveis (formulários, tabelas, modais)
+- Estado de servidor via React Query (busca, cache, sincronização com o backend); Redux para estado transversal do lado cliente (contexto de sessão/usuário, estado global de UI)
+- Validação no cliente como primeira checagem — nunca a única; o backend revalida tudo
+- Sem acesso direto à camada de dados: tudo passa pela API
+
+**Backend (Node.js / Express)**
+- Dividido entre uma camada de rota/controller (contrato HTTP: parsing de request, formatação de resposta, status codes) e uma camada de serviço/regra de negócio (regras, cálculos, orquestração)
+- Uma camada de acesso a dados (ORM ou queries manuais) fica atrás da camada de serviço, então a regra de negócio não depende de como o dado é armazenado
+- Uma camada de adaptador/integração para tudo que cruza uma fronteira de sistema — APIs de terceiros, eventos de hardware, importação de arquivos — responsável por traduzir formatos externos para o modelo interno da aplicação e vice-versa
+- Consome, mas não é dona, do contexto de autenticação/autorização já resolvido em uma etapa anterior do fluxo da requisição
+
+**Dados (PostgreSQL / SQL Server)**
+- Schema evoluído de forma incremental conforme o requisito mudava, via migrations, não edições ad-hoc
+- ORM para CRUD direto; SQL escrito à mão quando a query precisava de mais controle — joins entre várias tabelas, agregações de relatório, trechos sensíveis a performance
+- Integridade referencial garantida no nível do schema (foreign keys), não só no código da aplicação
+
+**Sistemas externos / corporativos**
+- APIs REST de terceiros, fontes de dados corporativas internas e, em alguns casos, eventos vindos de hardware físico (ex.: dispositivos de controle de acesso)
+- Sempre acessados através de um adaptador, nunca diretamente pela regra de negócio — isso mantém o núcleo da aplicação desacoplado das particularidades de qualquer integração específica
+
+### Ciclo de vida de uma requisição — leitura
+
+```
+1. Componente solicita dados (React Query)
+2. HTTP GET → endpoint REST
+3. Controller faz o parsing da requisição e aplica o contexto de auth/permissão
+4. Camada de serviço aplica regras de negócio (filtros, campos derivados)
+5. Camada de acesso a dados monta e executa a query
+6. Banco de dados retorna as linhas
+7. Camada de serviço formata a resposta
+8. Controller retorna JSON + status code
+9. React Query armazena em cache; componente renderiza
+```
+
+### Ciclo de vida de uma requisição — escrita
+
+```
+1. Usuário envia um formulário (validação no cliente primeiro)
+2. HTTP POST/PUT → endpoint REST
+3. Controller revalida no servidor — o cliente nunca é confiável sozinho
+4. Camada de serviço aplica regras de negócio e orquestra efeitos colaterais
+   (ex.: disparar uma integração, recalcular um valor derivado)
+5. Camada de acesso a dados persiste a mudança (transação, se envolver múltiplas escritas)
+6. Qualquer sincronização posterior (ex.: avisar outro sistema) acontece depois que a persistência dá certo
+7. Resposta é retornada; React Query invalida/rebusca as queries afetadas
+```
+
+### Contexto multi-tenant
+
+Em cenários multi-tenant, toda requisição carrega um contexto de tenant/instituição além do usuário autenticado:
+
+```
+Requisição
+   │
+   ▼
+Usuário Autenticado ──▶ Contexto de Tenant/Instituição
+   │                              │
+   └───────────────┬──────────────┘
+                    ▼
+        Regra de Negócio (escopada ao tenant)
+                    │
+                    ▼
+        Query no Banco (filtro por tenant)
+                    │
+                    ▼
+        Dados pertencentes apenas àquele tenant
+```
+
+Regra prática que sigo: **nenhuma query que retorne dado escopado por tenant deveria ser alcançável sem esse contexto aplicado.** Se uma feature realmente precisa de uma visão entre tenants (ex.: para admin/relatório), isso deveria ser um caminho explícito e separado — nunca um efeito colateral de esquecer o filtro.
+
+### Padrão de fronteira de integração
+
+Para tudo que fica fora do núcleo da aplicação — uma API de terceiro, um sistema legado, um feed de eventos de hardware, uma importação de arquivo — mantenho a lógica de tradução isolada numa camada de fronteira, em vez de deixar o formato externo vazar para os modelos internos:
+
+```
+Sistema Externo / Hardware / Arquivo
+              │
+              ▼
+     Adaptador (parse + validação)
+              │
+              ▼
+     Transformação → Modelo Interno
+              │
+              ▼
+     Regra de Negócio Principal
+              │
+              ▼
+     Persistência
+```
+
+Isso mantém o núcleo da aplicação alheio à *origem* do dado, o que facilita muito o diagnóstico de falhas de integração — "o problema está no adaptador ou depois dele?" costuma ser a primeira pergunta.
+
+## O que eu construo
+
+**Digitalização operacional** — transformar processos manuais ou baseados em planilha em sistemas web estruturados: monitoramento, rastreamento e fluxos de aprovação para operações físicas/de campo.
+
+**Rastreamento de força de trabalho e produtividade** — identificação via crachá/scanner, cronometragem de atividades, e métricas de lead time/produtividade derivadas de dados brutos de eventos.
+
+**Integração com hardware e dispositivos** — serviços de backend que consomem eventos de hardware físico de controle de acesso e mantêm isso sincronizado com os dados centrais da aplicação.
+
+**Integração de sistemas** — APIs REST conectando serviços internos, sistemas de terceiros e fontes de dados corporativas, incluindo transformação e validação de dados entre formatos (JSON, XML, CSV).
+
+**Plataformas multi-tenant** — bases de código compartilhadas atendendo múltiplas organizações, com configuração, permissões e isolamento de dados por tenant.
+
+**Relatórios e BI** — dashboards em Power BI, incluindo visualizações interativas customizadas em SVG, e funcionalidades de relatório financeiro envolvendo padronização cambial para comparações entre regiões.
+
+## Como eu abordo uma feature
+
+```
+Requisito de Negócio
+        │
+        ▼
+Entender o Fluxo Existente
+        │
+        ▼
+Desenhar / Implementar (Frontend + Backend + Dados)
+        │
+        ▼
+Integração
+        │
+        ▼
+Validação Funcional
+        │
+        ▼
+QA
+```
+
+## Como eu abordo um bug
+
+Não parto do princípio de qual camada está com o problema. Reproduzo o comportamento, comparo esperado vs. real, e sigo o dado de ponta a ponta até achar onde ele diverge:
+
+```
+React → Requisição HTTP → API REST → Regra de Negócio → Query/ORM → Banco → Resposta → React
+```
+
+Depois de isolar a camada com problema, procuro a causa raiz em vez de só corrigir o sintoma, aplico a menor correção que resolve, e revalido tanto o cenário original quanto funcionalidades relacionadas antes de repassar.
+
+## Testes e qualidade
+
+- Validação funcional, de API e de integração como parte do desenvolvimento da feature, antes de passar pro QA
+- Jest para lógica de backend pontual, não como responsabilidade total pela estratégia de testes
+- Checagens de sanidade e regressão depois de correções, focadas no fluxo afetado e nos vizinhos dele
+
+## Trabalhando com pessoas
+
+A maior parte do que eu construo começa como um problema descrito por alguém não-técnico — um responsável por operações, um time administrativo, um usuário final. Parte do trabalho é traduzir isso em um requisito técnico concreto, e parte é escrever documentação clara o suficiente para que outro engenheiro (ou aquele mesmo stakeholder não-técnico) entenda o que o sistema realmente faz.
+
+---
+
+`Full-Stack` · `React` · `Node.js` · `TypeScript` · `APIs REST` · `PostgreSQL` · `SQL Server` · `Integração de Sistemas` · `Aplicações Multi-Tenant` · `Visualização de Dados` · `Debugging e Análise de Causa Raiz`
