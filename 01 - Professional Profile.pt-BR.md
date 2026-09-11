@@ -1,23 +1,17 @@
-# Perfil Profissional
-
-Desenvolvedora full-stack trabalhando com React, Node.js e bancos relacionais desde 2021. Boa parte da minha experiência é construir e manter aplicações web de missão crítica para o negócio — do tipo que substitui processos manuais, planilhas ou sistemas fragmentados por algo estruturado, confiável e mais fácil de operar.
-
-Normalmente sou a pessoa que fica responsável por uma feature de ponta a ponta: entender o requisito de negócio, modelar os dados, construir a API, integrar o frontend e validar que tudo se comporta corretamente antes de ir pra produção.
+# My Professional Engineering Experience
+Full-Stack Development, Enterprise Systems, Integrations & Operations
 
 ## Stack
 
 | Área | Tecnologias |
 |---|---|
 | Linguagens | JavaScript (ES6+), TypeScript, Python, SQL |
-| Frontend | React, Redux, React Query, HTML5, CSS3, Tailwind CSS |
+| Frontend | React, React Query, HTML5, CSS3, Tailwind CSS |
 | Backend | Node.js, Express.js, design de APIs REST |
 | Dados | PostgreSQL, SQL Server, modelagem relacional, ORM e SQL puro |
 | Ferramentas | Git, Docker, CI/CD, Jest |
 
 ## Arquitetura
-
-### Visão geral
-
 ```
 ┌─────────────────────────────┐
 │        React Frontend       │
