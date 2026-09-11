@@ -1,22 +1,17 @@
-# Professional Profile
-
-Full-stack developer working across React, Node.js, and relational databases since 2021. Most of my experience has been building and maintaining business-critical web applications — the kind that replace manual processes, spreadsheets, or fragmented systems with something structured, reliable, and easier to operate on.
-
-I'm usually the person who ends up owning a feature end-to-end: understanding the business requirement, shaping the data model, building the API, wiring up the frontend, and validating that the whole thing behaves correctly before it ships.
+# My Professional Engineering Experience
+Full-Stack Development, Enterprise Systems, Integrations & Operations
 
 ## Stack
 
 | Area | Technologies |
 |---|---|
 | Languages | JavaScript (ES6+), TypeScript, Python, SQL |
-| Frontend | React, Redux, React Query, HTML5, CSS3, Tailwind CSS |
+| Frontend | React, React Query, HTML5, CSS3, Tailwind CSS |
 | Backend | Node.js, Express.js, REST API design |
 | Data | PostgreSQL, SQL Server, relational modeling, ORM & raw SQL |
 | Tooling | Git, Docker, CI/CD, Jest |
 
 ## Architecture
-
-### Overview
 
 ```
 ┌─────────────────────────────┐
